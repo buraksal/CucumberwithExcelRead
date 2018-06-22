@@ -1,0 +1,27 @@
+To have Cucumber Running perfectly on your Eclipse, you need to download several JAR files and Apache POI. 
+Also you need to add them to your project library.
+
+To Download Apache POI,
+
+go to http://poi.apache.org/download.html
+
+Download zip version of poi-bin file
+
+After downloading it gather all the jar files in poi, poi/ooxml-lib and poi/lib folders
+
+After gathering them together. Open Eclipse,
+
+File --> New --> Java Project --> Enter the Name of the Project then Press Next --> Click Libraries
+--> Add External JARs --> Select all the jars you gathered together.
+
+Also you need to download JAR Files for Cucumber
+
+You can download them from my drive: https://drive.google.com/open?id=16AkUk7liKeP3R2_xmNnJphF9r1P7BrlY
+
+You can add JAR files to existing java project as
+
+Right Click on Project → Build Path → Add External Archives. 
+
+Select all the JARs you downloaded.
+
+Now you are free to use BDD with Cucumber in which you get the data from existing Excel File.
